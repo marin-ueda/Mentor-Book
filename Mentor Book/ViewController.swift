@@ -44,12 +44,20 @@ class ViewController: UIViewController {
     }
     
     @IBAction func mae(){
+        if (index <= 2 && index > 0) {
         index = index - 1
+        } else {
+            index = 2
+        }
         setUI()
     }
     
     @IBAction func tugi(){
+        if index < 2 {
          index = index + 1
+        } else {
+            index = 0
+        }
         setUI()
     }
 }
