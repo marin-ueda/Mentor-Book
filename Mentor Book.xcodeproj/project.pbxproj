@@ -15,6 +15,10 @@
 		510F3CC2246B9828008CE068 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 510F3CC0246B9828008CE068 /* LaunchScreen.storyboard */; };
 		510F3CCD246B9829008CE068 /* Mentor_BookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510F3CCC246B9829008CE068 /* Mentor_BookTests.swift */; };
 		510F3CD8246B9829008CE068 /* Mentor_BookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510F3CD7246B9829008CE068 /* Mentor_BookUITests.swift */; };
+		510F3CE9246B989E008CE068 /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 510F3CE6246B989E008CE068 /* ryo.jpg */; };
+		510F3CEA246B989E008CE068 /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 510F3CE7246B989E008CE068 /* nagata.jpg */; };
+		510F3CEB246B989E008CE068 /* taithi.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 510F3CE8246B989E008CE068 /* taithi.JPG */; };
+		510F3CED246B9BA7008CE068 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510F3CEC246B9BA7008CE068 /* Mentor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		510F3CD3246B9829008CE068 /* Mentor BookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mentor BookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		510F3CD7246B9829008CE068 /* Mentor_BookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor_BookUITests.swift; sourceTree = "<group>"; };
 		510F3CD9246B9829008CE068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		510F3CE6246B989E008CE068 /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
+		510F3CE7246B989E008CE068 /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
+		510F3CE8246B989E008CE068 /* taithi.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.JPG; sourceTree = "<group>"; };
+		510F3CEC246B9BA7008CE068 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 		510F3CB4246B9825008CE068 /* Mentor Book */ = {
 			isa = PBXGroup;
 			children = (
+				510F3CE5246B989E008CE068 /* images */,
 				510F3CB5246B9826008CE068 /* AppDelegate.swift */,
 				510F3CB7246B9826008CE068 /* SceneDelegate.swift */,
 				510F3CB9246B9826008CE068 /* ViewController.swift */,
@@ -106,6 +115,7 @@
 				510F3CBE246B9828008CE068 /* Assets.xcassets */,
 				510F3CC0246B9828008CE068 /* LaunchScreen.storyboard */,
 				510F3CC3246B9828008CE068 /* Info.plist */,
+				510F3CEC246B9BA7008CE068 /* Mentor.swift */,
 			);
 			path = "Mentor Book";
 			sourceTree = "<group>";
@@ -126,6 +136,16 @@
 				510F3CD9246B9829008CE068 /* Info.plist */,
 			);
 			path = "Mentor BookUITests";
+			sourceTree = "<group>";
+		};
+		510F3CE5246B989E008CE068 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				510F3CE6246B989E008CE068 /* ryo.jpg */,
+				510F3CE7246B989E008CE068 /* nagata.jpg */,
+				510F3CE8246B989E008CE068 /* taithi.JPG */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +252,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				510F3CE9246B989E008CE068 /* ryo.jpg in Resources */,
+				510F3CEA246B989E008CE068 /* nagata.jpg in Resources */,
+				510F3CEB246B989E008CE068 /* taithi.JPG in Resources */,
 				510F3CC2246B9828008CE068 /* LaunchScreen.storyboard in Resources */,
 				510F3CBF246B9828008CE068 /* Assets.xcassets in Resources */,
 				510F3CBD246B9826008CE068 /* Main.storyboard in Resources */,
@@ -259,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				510F3CED246B9BA7008CE068 /* Mentor.swift in Sources */,
 				510F3CBA246B9826008CE068 /* ViewController.swift in Sources */,
 				510F3CB6246B9826008CE068 /* AppDelegate.swift in Sources */,
 				510F3CB8246B9826008CE068 /* SceneDelegate.swift in Sources */,
